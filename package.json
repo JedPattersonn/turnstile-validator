@@ -1,0 +1,36 @@
+{
+  "name": "turnstile-validator",
+  "version": "1.0.0",
+  "description": "A validator for Cloudflare Turnstile tokens",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cloudflare",
+    "turnstile",
+    "validator",
+    "captcha",
+    "typescript"
+  ],
+  "author": "Jed Patterson",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
